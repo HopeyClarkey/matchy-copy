@@ -100,9 +100,17 @@ console.log(animals.length);
 //'friends' and not different types of data(like an object could have)
 var friends = [];
 
-function getRandom(friends){
-  
-}
+function getRandom(array) {
+  const minCeiled = Math.ceil(0);
+  const maxFloored = Math.floor(array.length);
+  return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled)
+};
+
+friends.push(animals[getRandom(animals)].name);
+console.log(friends);
+cat['friends'] = friends;
+console.log(cat);
+
 /**
  * Nice work! You're done Part 1. Pat yourself on the back and
  * move onto Part 2 in the file called "functions.js"
