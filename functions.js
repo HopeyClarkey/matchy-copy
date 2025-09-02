@@ -15,12 +15,13 @@
  function search (animalList, animalName){
     for (let i = 0; i < animalList.length; i++){
     let lkupAnimal = i;
+    console.log(lkupAnimal);
+
     if(lkupAnimal.name = animalName){
         return lkupAnimal;
     }
-    }
  }
-
+ };
 
 //////////////////////////////////////////////////////////////////////
 // Step 2 - Replace //////////////////////////////////////////////////
