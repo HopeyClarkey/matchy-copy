@@ -17,12 +17,9 @@
         var lkupAnimal = animals[i];
     console.log(lkupAnimal);
 
-    if(lkupAnimal.name = animalName){
+    if(lkupAnimal.name === name){
         return lkupAnimal;
-    } else {
-        return null;
-    }
- }
+ }        return null;
  };
 
 //////////////////////////////////////////////////////////////////////
