@@ -32,6 +32,7 @@ function search (animals, name){ //takes array and search name
  }
  };        return null;             //return null if no animal
  }
+ //adding some stuff in order to try again to commit
 
 
 //////////////////////////////////////////////////////////////////////
