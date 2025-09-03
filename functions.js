@@ -15,12 +15,11 @@
  function search (animals, name){
     for (var i = 0; i < animals.length; i++){
         var lkupAnimal = animals[i];
-    console.log(lkupAnimal);
-
     if(lkupAnimal.name === name){
         return lkupAnimal;
- }        return null;
- };
+ }
+ };        return null;
+ }
 
 //////////////////////////////////////////////////////////////////////
 // Step 2 - Replace //////////////////////////////////////////////////
