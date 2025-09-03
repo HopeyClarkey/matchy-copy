@@ -17,30 +17,33 @@
         var lkupAnimal = animals[i]; //create variable to represent search 
     if(lkupAnimal.name === name){   //compare search
         return lkupAnimal;          //return animal
- }
- };        return null;             //return null if no animal
+        }
+    };        return null;             //return null if no animal
  }
 
 //////////////////////////////////////////////////////////////////////
 // Step 2 - Replace //////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
-function search (animals, name){ //takes array and search name
+function replace (animals, name, replacement){ //takes array and search name
     for (var i = 0; i < animals.length; i++){ // loop through animals
         var lkupAnimal = animals[i]; //create variable to represent search 
     if(lkupAnimal.name === name){   //compare search
-        return lkupAnimal;          //return animal
+        animals[lkupAnimal] = replacement; //overwrite with new animal
+         }
+     };
  }
- };        return null;             //return null if no animal
- }
- //adding some stuff in order to try again to commit
-
- //checking update
-
-
 
 //////////////////////////////////////////////////////////////////////
 // Step 3 - Remove ///////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
+function remove (animals, name){ //takes array and search name
+    for (var i = 0; i < animals.length; i++){ // loop through animals
+        var lkupAnimal = animals[i]; //create variable to represent search 
+    if(lkupAnimal.name === name){    //compare search
+        animals.splice(lkupAnimal);   //remove animal
+        }
+    };
+ } //somehow was able to write this one first try no help
 
 
 
