@@ -12,13 +12,13 @@
 //////////////////////////////////////////////////////////////////////
 // Step 1 - Search ///////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
- function search (animals, name){
-    for (var i = 0; i < animals.length; i++){
-        var lkupAnimal = animals[i];
-    if(lkupAnimal.name === name){
-        return lkupAnimal;
+ function search (animals, name){ //takes array and search name
+    for (var i = 0; i < animals.length; i++){ // loop through animals
+        var lkupAnimal = animals[i]; //create variable to represent search 
+    if(lkupAnimal.name === name){   //compare search
+        return lkupAnimal;          //return animal
  }
- };        return null;
+ };        return null;             //return null if no animal
  }
 
 //////////////////////////////////////////////////////////////////////
