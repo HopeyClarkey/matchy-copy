@@ -56,10 +56,10 @@ function add (animals, animal){ //takes array and animal addition
     if (animal.name.length > 0 &&
         animal.species.length > 0 && 
         lukupAnimal != animal){
-   animals.length += animal
+   animals[animals.length] += animal
         }
     };
- } //somehow 
+ } 
 
 
 /**
