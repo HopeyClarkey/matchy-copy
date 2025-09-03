@@ -50,7 +50,16 @@ function remove (animals, name){ //takes array and search name
 //////////////////////////////////////////////////////////////////////
 // Step 4 - Add ///////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
-
+function add (animals, animal){ //takes array and animal addition
+    for (var i = 0; i < animals.length; i++){ // loop through animals
+        var lkupAnimal = animals[i]; //create variable to represent search 
+    if (animal.name.length > 0 &&
+        animal.species.length > 0 && 
+        lukupAnimal != animal){
+   animals.length += animal
+        }
+    };
+ } //somehow 
 
 
 /**
