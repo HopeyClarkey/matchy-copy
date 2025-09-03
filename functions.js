@@ -28,7 +28,7 @@ function replace (animals, name, replacement){ //takes array and search name
     for (var i = 0; i < animals.length; i++){ // loop through animals
         var lkupAnimal = animals[i]; //create variable to represent search 
     if(lkupAnimal.name === name){   //compare search
-        animals[lkupAnimal] = replacement; //overwrite with new animal
+        animals[i] = replacement; //overwrite with new animal
          }
      };
  }
